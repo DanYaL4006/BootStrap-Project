@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Green Bootstrap Template Demo</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="assets/responsive/responsive.css">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <header id="home">
+    <div class="container mt-2">
+      <div class="d-flex">
+        <i class="bi bi-envelope-fill icon me-1"></i>
+        <p class="me-3">info@example.com</p>
+        <i class="bi bi-phone-fill phone-icon icon me-1"></i>
+        <p>+1 5589 55488 55</p>
+      </div>
+      <div class="d-flex gap-4 header-icon">
+        <i class="bi bi-twitter icon2"></i>
+        <i class="bi bi-facebook icon2"></i>
+        <i class="bi bi-instagram icon2"></i>
+        <i class="bi bi-linkedin icon2"></i>
+      </div>
+    </div>
+    <!-- top bar -->
+    <nav class="navbar navbar-expand-lg org-navbar">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-2" href="#">GREEN</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active home" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link active" aria-current="page" href="#about">About
+              </a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link active" aria-current="page" href="#services">Services
+              </a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio
+              </a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link active" aria-current="page" href="#team">Team
+              </a>
+            </li>
+            <li class="nav-item dropdown ms-3">
+              <a class="nav-link dropdown-toggle" style="color: black" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Drop Down
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item ms-3">
+              <a href="#contact" class="nav-link active">Contact</a>
+            </li>
+          </ul>
+          <button class="ms-4 btn-start"><a href="#about">Get Started</a></button>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar bg-body-white responsive-navbar">
+      <div class="container">
+        <a class="navbar-brand fs-2 fw-bold" href="#">GREEN</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" style="color: #5cb874;" id="offcanvasNavbarLabel">GREEN</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- header navbar -->
+  </header>
+  <!-- end header -->
+  <div id="carouselId" class="carousel slide text-center d-flex align-items-center justify-content-center"
+    data-bs-ride="carousel ">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide">
+      </li>
+      <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+      <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active caro1">
+        <h1 data-aos="fade-down" data-aos-delay="600" data-aos-duration="1100">Welcome to Green</h1>
+        <p class="py-3" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1100">
+          Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati
+          alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus
+          et tempore modi architecto.
+        </p>
+        <button data-aos="fade-up" data-aos-delay="900" data-aos-duration="1100">Read More</button>
+      </div>
+      <div class="carousel-item caro2">
+        <h1 data-aos="fade-down" data-aos-delay="600" data-aos-duration="1100">Lorem Ipsum Dolor</h1>
+        <p class="py-3" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1100">
+          Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati
+          alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus
+          et tempore modi architecto.
+        </p>
+        <button data-aos="fade-up" data-aos-delay="900" data-aos-duration="1100">Read More</button>
+      </div>
+      <div class="carousel-item caro3">
+        <h1 data-aos="fade-down" data-aos-delay="600" data-aos-duration="1100">Sequi ea ut et est quaerat</h1>
+        <p class="py-3" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1100">
+          Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati
+          alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus
+          et tempore modi architecto.
+        </p>
+        <button data-aos="fade-up" data-aos-delay="900" data-aos-duration="1100">Read More</button>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- carousel -->
+  <section class="mt-4 section2">
+    <div class="container">
+      <div class="row row-sec2 gy-5 ms-2">
+        <div class="col-md-5 col-lg-4">
+          <i class="bi bi-laptop"></i>
+          <h5 class="mt-2">Lorem Ipsum</h5>
+          <p class="mt-2">
+            Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+            provident
+          </p>
+        </div>
+        <div class="col-md-5 col-lg-4">
+          <i class="bi bi-briefcase"></i>
+          <h5 class="mt-2">Dolor Sitema</h5>
+          <p class="mt-2">
+            Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino
+            ata
+          </p>
+        </div>
+        <div class="col-md-5 col-lg-4">
+          <i class="bi bi-calendar4-week"></i>
+          <h5 class="mt-2">Sed ut perspiciatis</h5>
+          <p class="mt-2">
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trade
+            stravi
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- finish section 2 and start about us section -->
+  <section class="about-us-section mt-5 pt-5 text-center" id="about">
+    <div class="container ">
+      <h2 class="about-us">ABOUT US</h2>
+      <span class="sp-h2-1"></span>
+      <span class="sp-h2-2"></span>
+      <p class="mt-4 same-p">
+        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in
+        iste officiis commodi quidem hic quas.
+      </p>
+      <div class="container text-start">
+        <div class="row py-2 gy-3">
+          <div class="col-md-12 col-lg-6 order-lg-0 order-md-1">
+            <h3 class="about-us fw-bold">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
+            </h3>
+            <p>
+              <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.</em>
+            </p>
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+              aute irure dolor in reprehenderit in voluptate trideta
+              storacalaperda mastiro dolore eu fugiat nulla pariatur.
+            </p>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+              aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum
+            </p>
+          </div>
+          <div class="col-md-12 col-lg-6">
+            <img src="assets/Images/about.jpg" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="my-5 py-2">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 borders">
+          <span class="sp-num fs-4">01</span>
+          <h4 class="h4-title mt-3">Lorem Ipsum</h4>
+          <p class="opacity-50 p-caption mt-3">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur
+            ducimus vero placeat</p>
+        </div>
+        <div class="col-lg-4 col-md-6 borders">
+          <span class="sp-num fs-4">02</span>
+          <h4 class="h4-title mt-3">Repellat Nihil</h4>
+          <p class="opacity-50 p-caption mt-3">Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor
+            quod et vel dire leno para dest</p>
+        </div>
+        <div class="col-lg-4 col-md-6 borders">
+          <span class="sp-num fs-4">03</span>
+          <h4 class="h4-title mt-3">Ad ad velit qui</h4>
+          <p class="opacity-50 p-caption mt-3">Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt
+            debitis quo vel nam quis</p>
+        </div>
+        <div class="col-lg-4 col-md-6 borders">
+          <span class="sp-num fs-4">04</span>
+          <h4 class="h4-title mt-3">Repellendus molestiae</h4>
+          <p class="opacity-50 p-caption mt-3">Inventore quo sint a sint rerum. Distinctio blanditiis deserunt quod
+            soluta quod nam mider lando casa</p>
+        </div>
+        <div class="col-lg-4 col-md-6  borders">
+          <span class="sp-num fs-4">05</span>
+          <h4 class="h4-title mt-3">Sapiente Magnam</h4>
+          <p class="opacity-50 p-caption mt-3">Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui possimus
+            est repellendus est quibusdam</p>
+        </div>
+        <div class="col-lg-4 col-md-6 borders">
+          <span class="sp-num fs-4">06</span>
+          <h4 class="h4-title mt-3">Facilis Impedit</h4>
+          <p class="opacity-50 p-caption mt-3">Quis eum numquam veniam ea voluptatibus voluptas. Excepturi aut nostrum
+            repudiandae voluptatibus corporis sequi</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- finish about us setion and start OUR CLIENTS setcion -->
+  <section class="our-clients text-center">
+    <div class="container">
+      <h2>OUR CLIENTS</h2>
+      <span class="sp-h2-1"></span>
+      <span class="sp-h2-2"></span>
+      <p class="mt-4 same-p">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+        quidem. Sit
+        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+        sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-lg-2 col-md-4 mt-3"><img class="img-fluid img-client" src="assets/Images/client-1.png" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 mt-3"><img class="img-fluid img-client" src="assets/Images/client-2.png" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 mt-3"><img class="img-fluid img-client" src="assets/Images/client-3.png" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 mt-3"><img class="img-fluid img-client" src="assets/Images/client-4.png" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 mt-3"><img class="img-fluid img-client" src="assets/Images/client-5.png" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 mt-3"><img class="img-fluid img-client" src="assets/Images/client-6.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services text-center my-5 py-5" id="services">
+    <div class="container">
+      <h2>SERVICES</h2>
+      <span class="sp-h2-1"></span>
+      <span class="sp-h2-2"></span>
+      <p class="mt-4 same-p">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+        quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+        Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+    <div class="container">
+      <div class="row my-3 text-center gy-3">
+        <div class="col-lg-4 col-md-6 svg-services1 my-3">
+          <div class="svg-services">
+            <svg class="" width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+              <path stroke="none" stroke-width="0"
+                d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174">
+              </path>
+            </svg>
+            <i class="bx bxl-dribbble ball"></i>
+            <h4 class="mt-3">Lorem Ipsum</h4>
+            <p class="mt-3">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 svg-services2 my-3">
+          <div class="svg-services">
+            <svg class="" width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+              <path stroke="none" stroke-width="0"
+                d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426">
+              </path>
+            </svg>
+            <i class="bx bx-file file"></i>
+            <h4 class="mt-3">Sed Perspiciatis</h4>
+            <p class="mt-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 my-md-3 svg-services3 my-3">
+          <div class="svg-services">
+            <svg class="" width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+              <path stroke="none" stroke-width="0"
+                d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781">
+              </path>
+            </svg>
+            <i class="bx bx-tachometer metr"></i>
+            <h4 class="mt-3">Magni Dolores</h4>
+            <p class="mt-3">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 svg-services4 my-3">
+          <div class="svg-services">
+            <svg class="" width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+              <path stroke="none" stroke-width="0"
+                d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813">
+              </path>
+            </svg>
+            <i class="bx bx-layer layer"></i>
+            <h4 class="mt-3">Nemo Enim</h4>
+            <p class="mt-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 svg-services5 my-3">
+          <div class="svg-services">
+            <svg class="" width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+              <path stroke="none" stroke-width="0"
+                d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572">
+              </path>
+            </svg>
+            <i class="bx bx-slideshow slideshow"></i>
+            <h4 class="mt-3">Dele Cardo</h4>
+            <p class="mt-3">Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 svg-services6 .svg-services my-3">
+          <div class="svg-services">
+            <svg class="" width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+              <path stroke="none" stroke-width="0"
+                d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762">
+              </path>
+            </svg>
+            <i class="bx bx-arch arch"></i>
+            <h4 class="mt-3">Divera Don</h4>
+            <p class="mt-3">Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- finish our clients section and start call to action-->
+  <section class="call">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <h3 class="fw-bold">
+            Call To Action
+          </h3>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.</p>
+        </div>
+        <div class="col-lg-3">
+          <button class=""><a href="#">Call To Action</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- finish call to action and start PORTFOLIO section -->
+  <section class="portfolio my-5 py-1" id="portfolio">
+    <div class="container text-center">
+      <h2>
+        PORTFOLIO
+      </h2>
+      <span class="sp-h2-1"></span>
+      <span class="sp-h2-2"></span>
+      <p class="my-4 same-p">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+        quidem.
+        Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+        fugiat
+        sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="ul-portfolio">
+            <li class="all">ALL</li>
+            <li class="app">APP</li>
+            <li class="cardd">CARD</li>
+            <li class="web">WEB</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container images-port">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <img class="img-fluid img-port1" src="assets/Images/portfolio-1.jpg" alt="">
+          <div class="img-port-hover1"></div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img class="img-fluid img-port2" src="assets/Images/portfolio-2.jpg" alt="">
+          <div class="img-port-hover2"></div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img class="img-fluid img-port3" src="assets/Images/portfolio-3.jpg" alt="">
+          <div class="img-port-hover3"></div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img class="img-fluid my-4 img-port6" src="assets/Images/portfolio-6.jpg" alt="">
+          <div class="img-port-hover4"></div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img class="img-fluid img-port5" src="assets/Images/portfolio-5.jpg" alt="">
+          <div class="img-port-hover5"></div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img class="img-fluid img-port4" src="assets/Images/portfolio-4.jpg" alt="">
+          <div class="img-port-hover6"></div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img class="img-fluid img-port9" src="assets/Images/portfolio-9.jpg" alt="">
+          <div class="img-port-hover7"></div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img class="img-fluid img-port8" src="assets/Images/portfolio-8.jpg" alt="">
+          <div class="img-port-hover8"></div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img class="img-fluid img-port7" src="assets/Images/portfolio-7.jpg" alt="">
+          <div class="img-port-hover9"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- finish portfolio section and start team -->
+  <section class="team my-5"id="team">
+    <div class="container text-center">
+      <h2>TEAM</h2>
+      <span class="sp-h2-1"></span>
+      <span class="sp-h2-2"></span>
+      <p class="my-4 same-p">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+        quidem. Sit
+        sint
+        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in
+        iste officiis commodi quidem hic quas.</p>
+    </div>
+    <div class="container my-3">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="teams">
+            <img class="img-fluid" src="assets/Images/team-1.jpg" alt="">
+            <h5 class="mt-4">Walter White</h5>
+            <em>Chief Executive Officer</em>
+            <p>Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut
+              aut</p>
+            <i class="bi-twitter me-1"></i>
+            <i class="bi-facebook me-1"></i>
+            <i class="bi-instagram me-1"></i>
+            <i class="bi-linkedin"></i>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="teams">
+            <img class="img-fluid" src="assets/Images/team-2.jpg" alt="">
+            <h5 class="mt-4">Sarah Jhinson</h5>
+            <em>Product Manager</em>
+            <p>Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+            </p>
+            <i class="bi-twitter me-1"></i>
+            <i class="bi-facebook me-1"></i>
+            <i class="bi-instagram me-1"></i>
+            <i class="bi-linkedin"></i>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="teams">
+            <img class="img-fluid" src="assets/Images/team-3.jpg" alt="">
+            <h5 class="mt-4">William Anderson</h5>
+            <em>CTO</em>
+            <p style="padding-top: 21px; position: relative; top: -21px;">Voluptas necessitatibus occaecati quia. Earum
+              totam consequuntur qui porro et laborum toro des clara</p>
+            <i class="bi-twitter me-1"></i>
+            <i class="bi-facebook me-1"></i>
+            <i class="bi-instagram me-1"></i>
+            <i class="bi-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- finish team section and start contact -->
+  <section class="contact mb-5 pb-2" id="contact">
+    <div class="container text-center">
+      <h2>CONTACT</h2>
+      <span class="sp-h2-1"></span>
+      <span class="sp-h2-2"></span>
+      <p class="my-4 same-p">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+        quidem. Sit
+        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+        sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-lg-5 col-md-12 d-flex align-items-stretch flex-column gy-md-3">
+          <div class="cantact-us">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Location:</h4>
+            <p>A108 Adam Street, New York, NY 535022</p>
+            <i class="bi bi-envelope"></i>
+            <h4>Email:</h4>
+            <p>info@example.com</p>
+            <i class="bi bi-phone"></i>
+            <h4>Call:</h4>
+            <p>+1 5589 55488 55s</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+              frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen=""></iframe>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-12 form-get-info gy-3">
+          <div class="d-flex">
+            <div class="col-md-6 me-4">
+              <label for="inp-name">Your Name</label>
+              <input type="text" name="" id="inp-name">
+            </div>
+            <div class="col-md-6">
+              <label class="lbl-email" for="inp-name">
+                Your Email</label>
+              <input type="email" name="" id="inp-email">
+            </div>
+          </div>
+          <div class="my-4">
+            <label for="inp-name">
+              Subject</label>
+            <input type="text" name="" id="inp-subject">
+          </div>
+          <div class="">
+            <label for="inp-name">
+              Message</label>
+            <textarea name="" id="inp-message" rows="10"></textarea>
+          </div>
+          <div class="text-center mt-3">
+            <button type="submit" class="btn-info">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="">
+    <div class="container text-center">
+      <h2 class="fw-bold pt-4">Green</h2>
+      <p><em>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi
+          placeat.</em></p>
+      <i class="bx bxl-twitter me-1 my-3"></i>
+      <i class="bx bxl-facebook me-1"></i>
+      <i class="bx bxl-instagram me-1"></i>
+      <i class="bx bxl-skype me-1"></i>
+      <i class="bx bxl-linkedin"></i>
+      <p class="my-4">© Copyright <span class="fw-bold">Green</span>. All Rights Reserved</p>
+      <p class="design">Designed by <span class="sp-designer">Danial Abasi</span></p>
+    </div>
+  </footer>
+  <script src="assets/jquery.js"></script>
+  <script src="assets/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

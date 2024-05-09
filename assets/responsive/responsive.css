@@ -1,0 +1,129 @@
+@media (max-width: 1400px) {
+    .responsive-navbar {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+@media (max-width: 1200px){
+    .carousel-item button{
+        position: relative;
+        top: 30px;
+     }
+    .responsive-navbar {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .img-port4{
+        margin-top: 30px;
+    }
+    .img-port7{
+        margin-top: 82px;
+    }
+    .img-port8{
+        margin-left: -59px;
+        margin-top: 45px;
+    }
+    .img-port9{
+        margin-left: -58px;
+    }
+}
+@media (max-width: 992px) {
+    .org-navbar {
+        opacity: 0;
+    }
+    .responsive-navbar {
+        opacity: 1;
+        visibility: visible;
+    }
+    .carousel-item button{
+       position: relative;
+       top: 65px;
+    }
+    .img-port5{
+        position: relative;
+        top: -330px;
+    }
+    .img-port6{
+        position: relative;
+        top: -110px;
+    }
+    .img-port7{
+        margin-top: -160px;
+        
+    }
+    .img-port9{
+    margin-top: -285px;
+    margin-left: -19px;
+    }
+    .img-port8{
+    margin-top: 90px;
+    margin-left: -380px;
+    }
+}
+@media (max-width: 768px){
+    .carousel-item button{
+        position: relative;
+        top: 100px;
+     }
+     .img-port2{
+        margin-top: 30px;
+    }
+     .img-port3{
+        margin-top: 30px;
+    }
+     .img-port5{
+        position: relative;
+        top: 15px;
+    }
+     .img-port6{
+        position: relative;
+        top: 15px;
+    }
+     .img-port4{
+        position: relative;
+        top: 15px;
+    }
+     .img-port8{
+        position: relative;
+        top: 265px;
+    }
+     .img-port7{
+        margin-top: 15px;
+    }
+     .img-port9{
+        position: relative;
+        top: 1070px;
+    }
+     .img-port9{
+        margin-left: -379px;
+    }
+    .images-port{
+        margin-bottom: 400px;
+    }
+}
+@media (max-width: 576px){
+    .carousel-item button{
+        position: relative;
+        top: 120px;
+     }
+     .carousel-item h1{
+        font-size: 30px !important;
+     }
+     .carousel-item p{
+        font-size: 15px !important;
+     }
+     .img-port7{
+        position: relative;
+        top: -60px;
+    }
+     .img-port8{
+        position: relative;
+        top: -70px;
+    }
+     .img-port9{
+        margin-top: -470px;
+    }
+    .images-port{
+        margin-bottom: 400px;
+    }
+}
